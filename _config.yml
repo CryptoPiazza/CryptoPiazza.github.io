@@ -1,0 +1,180 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Cryptography at University of Innsbruck
+subtitle: 
+email: luca.campa@uibk.ac.at
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a cryptography researcher at the University of Innsbruck. My interest is mainly on design and cryptanalysis of symmetric primitives, with major focus on the application of algebraic geometry in the cryptographic setting.
+footer_text: >
+  Built with Jekyll and Al-folio.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://CryptoPiazza.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+keywords: cryptography, algebraic, cryptanalysis, courses, lectures, research
+
+
+# -----------------------------------------------------------------------------
+# Generic layout
+# -----------------------------------------------------------------------------
+navbar_fixed: true
+footer_fixed: true
+bib_search: true
+enable_darkmode: false
+
+# -----------------------------------------------------------------------------
+# Width of your website 
+# -----------------------------------------------------------------------------
+max_width: 1000px
+
+# -----------------------------------------------------------------------------
+# Repo Color themes
+# -----------------------------------------------------------------------------
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+
+
+# -----------------------------------------------------------------------------
+# GitHub settings 
+# -----------------------------------------------------------------------------
+# github_username: CampaLuca
+# repo_description_lines_max: 3
+# github_repos: 
+#   - CampaLuca/DES_Linear_Cryptanalysis
+#   - CampaLuca/FHE
+#   - CampaLuca/Rust-Cryptography-Math-library
+#   - CampaLuca/ForkAES-5-plus-2-rounds-reflective-trails-attack # here you can put a list of  your selected repositories
+
+
+# -----------------------------------------------------------------------------
+# Social media settings
+socials_on_footer: false
+enable_navbar_social_and_below_image: false
+# -----------------------------------------------------------------------------
+# Social Media links (put only the usernames)
+### Comment the social you don't want to add to your footer
+# -----------------------------------------------------------------------------
+# twitter: "#"
+# linkedin: "luca-campa-sec"
+# stackoverflow: "#"
+# github: "CampaLuca"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# google_scholar: "#"
+# arxiv: "#"
+# dblp: "#"
+# youtube_id: "#"
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+# scholar:
+#   last_name: [Campa]
+#   first_name: [Luca]
+
+#   style: apa
+#   locale: en
+
+#   source: /_bibliography/
+#   bibliography: example.bib
+#   bibliography_template: bib
+#   bibtex_filters: [latex, smallcaps, superscript]
+
+#   replace_strings: true
+#   join_strings: true
+
+#   details_dir: bibliography
+#   details_link: Details
+
+#   query: "@*"
+#   # group_by: year
+#   # group_order: descending
+
+#   sort_by: year
+#   order: descending
+
+
+# # Maximum number of authors to be shown for each publication (more authors are visible on click)
+# max_author_limit: 3 # leave blank to always show all authors
+# more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+
+
+
+################################################################
+############### DON'T TOUCH FROM HERE ##########################
+################################################################
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+include: ["_pages"]
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+# Build settings
+# theme: minima
+plugins:
+  - jekyll/scholar
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+
+## Necessary libraries for UI&UX
+third_party_libraries:
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  bootstrap-table:
+    integrity:
+      css: #"sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: #"sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/bootstrap-table.min.js"
+    version: "1.23.5"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  jquery:
+    integrity:
+      js: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    url:
+      js: "https://code.jquery.com/jquery-3.7.1.min.js"
+    version: "3.7.1"

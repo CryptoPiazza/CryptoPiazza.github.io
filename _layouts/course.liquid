@@ -1,0 +1,83 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+     <!-- Bootstrap Nav Tabs -->
+    <ul class="nav nav-tabs" id="courseTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="syllabus-tab" data-bs-toggle="tab" data-bs-target="#syllabus" type="button" role="tab" aria-controls="syllabus" aria-selected="true">
+          Syllabus
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="material-tab" data-bs-toggle="tab" data-bs-target="#material" type="button" role="tab" aria-controls="material" aria-selected="false">
+          Course Material
+        </button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content border border-top-0 p-4 rounded-bottom" id="courseTabsContent">
+      <div class="tab-pane fade show active" id="syllabus" role="tabpanel" aria-labelledby="syllabus-tab">
+        <p>
+          <b>Lectures</b>: <ul>
+          {%- for lecturer in page.lecturers -%}
+            <li>{{ lecturer }}</li>
+          {% endfor %}
+          </ul>
+          <b>Term</b>: {{ page.term }}<br>
+          <b>ECTS</b>: {{ page.ects }}<br>
+          <b>Weekly Hours</b>: {{ page.hours }}<br>
+          <b>Format</b>: {{ page.format }}<br>
+          <b>Language</b>: {{ page.language }}<br>
+          <b>Prerequisites</b>: {{ page.prerequisites }}<br>
+          <b>Assessment</b>: {{ page.assessment }}
+        </p>
+
+        <p>
+        <h5>Objectives</h5> {{ page.objective }}
+        </p>
+
+
+        <p>
+        <h5>Content</h5> <ul>
+          {%- for topic in page.topics -%}
+            <li>{{ topic }}</li>
+          {% endfor %}
+          </ul>
+        </p>
+
+        <p>
+        <h5>Recommended Readings</h5> {{ page.recommendedreading }}
+        </p>
+      </div>
+      <div class="tab-pane fade" id="material" role="tabpanel" aria-labelledby="material-tab">
+        <p>Course material is provided on <a href="https://lms.uibk.ac.at/dmz/">OLAT</a>, the e-learning platform of the University of Innsbruck.</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap 5 JS Bundle (with Popper) -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous">
+  </script>
+  </article>
+
+  
+
+</div>
