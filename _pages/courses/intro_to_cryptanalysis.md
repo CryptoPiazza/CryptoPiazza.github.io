@@ -25,6 +25,6 @@ topics: [
     "Cryptanalysis of Pseudo-random number generator (PRNG)"
     ]
 recommendedreading: "C. Paar, J. Pelzl: Understanding Cryptography"
-assessment: "Project (40%), assignments and presentations (60%)"
+assessment: "Assignments (80%) and In-class presentations (20%)"
 language: English
 ---

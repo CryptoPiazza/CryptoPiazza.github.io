@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cryptography at University of Innsbruck
+title: Crypto@UIBK
 subtitle: 
 email: luca.campa@uibk.ac.at
 description: > # this means to ignore newlines until "baseurl:"

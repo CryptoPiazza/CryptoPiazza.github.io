@@ -19,20 +19,29 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page -->
 ---
 
-At the University of Innsbruck, our Cryptography Team focuses on the design and cryptanalysis of cryptographic primitives and their applications in real-world contexts, such as industrial environments, IoT-constrained devices, and privacy-preserving machine learning. Our current research explores how algebraic geometry can be applied to both the design and analysis of symmetric-key primitives, particularly within privacy-preserving protocols like Zero-Knowledge Proofs (ZK-Proofs), Multi-Party Computation (MPC), and Fully Homomorphic Encryption (FHE). We are especially interested in understanding and developing the fundamental design principles behind cryptographic functions, drawing on insights from computational algebraic geometry and algebraic number theory to advance secure and efficient cryptographic systems.
+<!-- At the University of Innsbruck, our Cryptography Team focuses on the design and cryptanalysis of cryptographic primitives and their applications in real-world contexts, such as industrial environments, IoT-constrained devices, and privacy-preserving machine learning. Our current research explores how algebraic geometry can be applied to both the design and analysis of symmetric-key primitives, particularly within privacy-preserving protocols like Zero-Knowledge Proofs (ZK-Proofs), Multi-Party Computation (MPC), and Fully Homomorphic Encryption (FHE). We are especially interested in understanding and developing the fundamental design principles behind cryptographic functions, drawing on insights from computational algebraic geometry and algebraic number theory to advance secure and efficient cryptographic systems. -->
 
-### Team members
+### Research Team
+The cryptography research team at the Department of Computer Science consists of:
 - [Ass.-Prof. Dr. Arnab Roy](https://byt3bit.github.io/)
 - [Luca Campa, MSc.](https://lucacampa.it/)
 
-### Previous internships
+### Courses
+
+This website provides the information regarding the cryptography courses we teach at University of Innsbruck. 
+Go to the [Courses](\teaching) page for more information. 
+
+### Research Seminars
+
+We organise research seminars on the topic of Cryptography and Theoretical and Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
+
+### Master's thesis
 Every year, we welcome students from both local and international universities to join our research activities and develop their Master’s theses within our team. Through close collaboration, students gain hands-on experience in cutting-edge cryptographic research, working alongside our researchers on topics that bridge theoretical foundations and practical applications in modern cryptography.
 
-- Luca Campa (University of Udine)
-- Filippo Merlo (University of Udine)
-- Massimo Fumiani (University of Trento)
+- Luca Campa (University of Udine, Department of Mathematics and Computer Science)
+- Filippo Merlo (University of Udine, Department of Mathematics and Computer Science)
+- Massimo Fumiani (University of Trento, Department of Mathematics)
 
-### Teaching
+### Available Master's thesis topics
 
-This website provided the information regarding the cryptography courses we teach at University of Innsbruck. 
-Go to the `Teaching` page for more information. 
+1) Privacy preserving machine learning (Implementation 70%, Reading 30%)
