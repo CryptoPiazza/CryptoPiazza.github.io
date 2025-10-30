@@ -24,24 +24,30 @@ social: false # includes social icons at the bottom of the page -->
 ### Research Team
 The cryptography research team at the Department of Computer Science consists of:
 - [Ass.-Prof. Dr. Arnab Roy](https://byt3bit.github.io/)
-- [Luca Campa, MSc.](https://lucacampa.it/)
+- [Luca Campa, MSc.](https://lucacampa.it/) 
+
+##### Visitors:
+- Massimo Fumiani, *University of Trento, Department of Mathematics* (Master's student). 
 
 ### Courses
 
-This website provides the information regarding the cryptography courses we teach at University of Innsbruck. 
-Go to the [Courses](\teaching) page for more information. 
+Information about the cryptography courses we offer can be found in [Courses](\teaching). 
 
 ### Research Seminars
 
 We organise research seminars on the topic of Cryptography and Theoretical and Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
 
 ### Master's thesis
-Every year, we welcome students from both local and international universities to join our research activities and develop their Master’s theses within our team. Through close collaboration, students gain hands-on experience in cutting-edge cryptographic research, working alongside our researchers on topics that bridge theoretical foundations and practical applications in modern cryptography.
+We welcome interested students from both local and international universities to join our research activities and develop their Master’s theses within our team. Through close collaboration, students gain hands-on experience in cutting-edge cryptographic research, working alongside our researchers on topics that bridge theoretical foundations and practical applications in modern cryptography. For details on Master's thesis topics, email us.
 
-- Luca Campa (University of Udine, Department of Mathematics and Computer Science)
-- Filippo Merlo (University of Udine, Department of Mathematics and Computer Science)
-- Massimo Fumiani (University of Trento, Department of Mathematics)
+**<span style="color: darkorange">Note</span>**: we do not have any paid internship position at the moment.  
 
-### Available Master's thesis topics
 
-1) Privacy preserving machine learning (Implementation 70%, Reading 30%)
+##### Available Master's thesis topics
+- Cryptography for privacy preserving machine learning (Implementation 60%, Theory - Reading Literature 40%)
+
+##### Previous Master's thesis
+- *[Algebraic cryptanalysis and its application to Arithmetization Oriented primitives](https://lucacampa.it/assets/pdf/thesis.pdf)*<br>Luca Campa (University of Udine, Department of Mathematics and Computer Science)
+
+- *[Probabilistic approach to Groebner basis cryptanalysis by projective approximation](#)*<br>Filippo Merlo (University of Udine, Department of Mathematics and Computer Science)
+
