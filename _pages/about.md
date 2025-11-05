@@ -37,12 +37,10 @@ Information about the cryptography courses we offer can be found in [Courses](\t
 
 We organise research seminars on the topic of Cryptography and Theoretical and Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
 
-### Master's thesis
-We welcome interested students from both local and international universities to join our research activities and develop their Master’s theses within our team. Through close collaboration, students gain hands-on experience in cutting-edge cryptographic research, working alongside our researchers on topics that bridge theoretical foundations and practical applications in modern cryptography. For details on Master's thesis topics, email us.
+### Bachelor's and Master's thesis
+We are interested in supervising students for their Bachelor's and Master's thesis on the topic of Cryptography and its applications. For details on available thesis topics, check the [Thesis](/thesis) webpage or email us.
 
 **<span style="color: darkorange">Note</span>**: we do not have any paid internship position at the moment.  
-
-For available Master's thesis check the [Thesis](/thesis) webpage.
 
 
 
