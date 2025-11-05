@@ -4,7 +4,7 @@ title: Seminars
 permalink: /seminars/
 description: 
 nav: true # comment in case you don't want this page
-nav_order: 7 # comment in case you don't want this page
+nav_order: 9 # comment in case you don't want this page
 
 ---
 
