@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Seminars
+title: Seminars
 permalink: /seminars/
 description: 
 nav: true # comment in case you don't want this page
