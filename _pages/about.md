@@ -42,20 +42,15 @@ We welcome interested students from both local and international universities to
 
 **<span style="color: darkorange">Note</span>**: we do not have any paid internship position at the moment.  
 
-
-##### Available Master's thesis topics
-- Cryptography for privacy preserving machine learning (Implementation 60%, Theory - Reading Literature 40%)
-
-##### Previous Master's thesis
-- *[Algebraic cryptanalysis and its application to Arithmetization Oriented primitives](https://lucacampa.it/assets/pdf/thesis.pdf)*<br>Luca Campa (University of Udine, Department of Mathematics and Computer Science)
-
-- *[Probabilistic approach to Groebner basis cryptanalysis by projective approximation](#)*<br>Filippo Merlo (University of Udine, Department of Mathematics and Computer Science)
+For available Master's thesis check the [Thesis](/thesis) webpage.
 
 
+
+<!-- 
 ### Invited talks
 
 - **[RISC Colloquium](https://mathematik.jku.at/mathe_linkTalks.shtml)**, Luca Campa and Arnab Roy, Title: *Solving Iterative Polynomial System with Groebner basis and Algebraic Cryptanalysis*, Johannes Kepler University, RISC, Linz, 27/10/2025 
 - **[Cryptanalysis of Algebraic Hash Functions](https://www.cahf-poseidon.info/)**, Luca Campa, Title: *A Groebner basis for Poseidon and its cryptanalytic impact*, Luxembourg, 23/10/2025 
 - **[Digital Security Festival](https://www.digitalsecurityfestival.it/)**, Luca Campa, Udine, Italy, 26/09/2025
 - **[SymCrypt 2025](https://www.linkedin.com/posts/de-cifris-associazione-nazionale-8274501a5_symdmath-activity-7315467677634912256-kRUw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACmhxGoBAAlhkfr-EtY94jkwSqUMpcCE6Hc)**, Luca Campa, Title: *Groebner basis analysis and shape lemma: Algebraic cryptanalysis of Anemoi*, University of Trento, Trento, Italy, 11/04/2025
-- **[ASK 2024](https://askworkshop.github.io/ask2024/)**, Arnab Roy, Title: *New Design Approaches in Symmetric Cryptography*, Kolkata, India, 14/12/2024
+- **[ASK 2024](https://askworkshop.github.io/ask2024/)**, Arnab Roy, Title: *New Design Approaches in Symmetric Cryptography*, Kolkata, India, 14/12/2024 -->
