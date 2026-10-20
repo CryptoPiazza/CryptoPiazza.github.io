@@ -19,10 +19,6 @@ The cryptography research team at the Department of Computer Science, University
 - [Luca Campa, MSc.](https://lucacampa.it/) 
 - [Massimo Fumiani, MSc.](https://fumianimax.github.io/) 
 
-### Research Seminars
-
-We organise research seminars on the topic of Cryptography and its Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
-
 **<span style="color: darkorange">Note</span>**: we do not have any paid internship position at the moment.  
 
 ### Recent Publications
@@ -30,3 +26,7 @@ We organise research seminars on the topic of Cryptography and its Mathematical 
 <div class="publications">
 {% bibliography --query @*[year=2026]* %}
 </div>
+
+### Research Seminars
+
+We organise research seminars on the topic of Cryptography and its Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
