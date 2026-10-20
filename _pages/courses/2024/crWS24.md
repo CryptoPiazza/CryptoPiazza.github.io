@@ -1,6 +1,6 @@
 ---
 layout: course
-permalink: /teaching/courses/cryptography
+permalink: /teaching/courses/2024/crWS24
 title: Cryptography
 description: 
 # nav: false # comment in case you don't want this page

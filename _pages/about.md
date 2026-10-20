@@ -27,4 +27,6 @@ We organise research seminars on the topic of Cryptography and its Mathematical 
 
 ### Recent Publications
 
+<div class="publications">
 {% bibliography --query @*[year=2026]* %}
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: course
-permalink: /teaching/courses/secpriv_computation
+permalink: /teaching/courses/2024/spcompSS24
 title: Secure and Private Computation
 description: 
 # nav: false # comment in case you don't want this page

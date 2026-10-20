@@ -1,6 +1,6 @@
 ---
 layout: course
-permalink: /teaching/courses/intro_cryptanalysis
+permalink: /teaching/courses/2025/icWS25
 title: Introduction to Cryptanalysis
 description: 
 # nav: false # comment in case you don't want this page

@@ -1,6 +1,6 @@
 ---
 layout: course
-permalink: /teaching/courses/applied_cryptography
+permalink: /teaching/courses/2025/acSS25
 title: Applied Cryptography
 description: 
 # nav: false # comment in case you don't want this page
