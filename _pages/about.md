@@ -19,26 +19,12 @@ The cryptography research team at the Department of Computer Science, University
 - [Luca Campa, MSc.](https://lucacampa.it/) 
 - [Massimo Fumiani, MSc.](https://fumianimax.github.io/) 
 
-### Courses
-
-Information about the cryptography courses we offer can be found in [Courses](\teaching). 
-
 ### Research Seminars
 
 We organise research seminars on the topic of Cryptography and its Mathematical Foundations. Please check the [Seminars](/seminars) webpage.
 
-### Bachelor's and Master's thesis
-We are interested in supervising students for their Bachelor's and Master's thesis on the topic of Cryptography and its applications. For details on available thesis topics, check the [Thesis](/thesis) webpage or email us.
-
 **<span style="color: darkorange">Note</span>**: we do not have any paid internship position at the moment.  
 
+### Recent Publications
 
-
-<!-- 
-### Invited talks
-
-- **[RISC Colloquium](https://mathematik.jku.at/mathe_linkTalks.shtml)**, Luca Campa and Arnab Roy, Title: *Solving Iterative Polynomial System with Groebner basis and Algebraic Cryptanalysis*, Johannes Kepler University, RISC, Linz, 27/10/2025 
-- **[Cryptanalysis of Algebraic Hash Functions](https://www.cahf-poseidon.info/)**, Luca Campa, Title: *A Groebner basis for Poseidon and its cryptanalytic impact*, Luxembourg, 23/10/2025 
-- **[Digital Security Festival](https://www.digitalsecurityfestival.it/)**, Luca Campa, Udine, Italy, 26/09/2025
-- **[SymCrypt 2025](https://www.linkedin.com/posts/de-cifris-associazione-nazionale-8274501a5_symdmath-activity-7315467677634912256-kRUw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACmhxGoBAAlhkfr-EtY94jkwSqUMpcCE6Hc)**, Luca Campa, Title: *Groebner basis analysis and shape lemma: Algebraic cryptanalysis of Anemoi*, University of Trento, Trento, Italy, 11/04/2025
-- **[ASK 2024](https://askworkshop.github.io/ask2024/)**, Arnab Roy, Title: *New Design Approaches in Symmetric Cryptography*, Kolkata, India, 14/12/2024 -->
+{% bibliography --query @*[year=2026]* %}
