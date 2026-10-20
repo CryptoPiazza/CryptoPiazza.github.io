@@ -25,9 +25,7 @@ social: false # includes social icons at the bottom of the page -->
 The cryptography research team at the Department of Computer Science consists of:
 - [Ass.-Prof. Dr. Arnab Roy](https://byt3bit.github.io/)
 - [Luca Campa, MSc.](https://lucacampa.it/) 
-
-##### Visitors:
-- Massimo Fumiani, *University of Trento, Department of Mathematics* (Master's student). 
+- [Massimo Fumiani, MSc.](https://fumianimax.github.io/) 
 
 ### Courses
 
