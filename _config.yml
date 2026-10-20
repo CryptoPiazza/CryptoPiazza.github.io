@@ -22,7 +22,7 @@ title: ""
 subtitle: 
 email: luca.campa@uibk.ac.at
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a cryptography researcher at the University of Innsbruck. My interest is mainly on design and cryptanalysis of symmetric primitives, with major focus on the application of algebraic geometry in the cryptographic setting.
+  Cryptography group of the University of Innsbruck
 footer_text: >
   Built with Jekyll and Al-folio.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -88,35 +88,34 @@ enable_navbar_social_and_below_image: false
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-# scholar:
-#   last_name: [Campa]
-#   first_name: [Luca]
-
-#   style: apa
-#   locale: en
-
-#   source: /_bibliography/
-#   bibliography: example.bib
-#   bibliography_template: bib
-#   bibtex_filters: [latex, smallcaps, superscript]
-
-#   replace_strings: true
-#   join_strings: true
-
-#   details_dir: bibliography
-#   details_link: Details
-
-#   query: "@*"
-#   # group_by: year
-#   # group_order: descending
-
-#   sort_by: year
-#   order: descending
+scholar:
 
 
-# # Maximum number of authors to be shown for each publication (more authors are visible on click)
-# max_author_limit: 3 # leave blank to always show all authors
-# more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: example.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_link: Details
+
+  query: "@*"
+  # group_by: year
+  # group_order: descending
+
+  sort_by: year
+  order: descending
+
+
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3 # leave blank to always show all authors
+more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 
 
