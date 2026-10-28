@@ -5,7 +5,7 @@ title: Cryptography
 description: 
 # nav: false # comment in case you don't want this page
 # nav_order: 6 # comment in case you don't want this page
-lecturers: ["Ass.-Prof. Dr. Arnab Roy"]
+lecturers: ["Asst.-Prof. Dr. Arnab Roy"]
 term: Winter
 hours: 2
 ects: "4,5"
@@ -19,7 +19,7 @@ topics: [
     "Secure cryptographic primitive under quantum computation model",
     "Selected topics: commitment schemes, zero-knowledge, secret sharing, multi-party computation."
     ]
-recommendedreading: "C. Paar, J. Pelzl: Understanding Cryptography"
+recommendedreading: "Introduction to Modern Cryptography by Katz and Lindell"
 assessment: "Written Exam"
 language: English
 ---
