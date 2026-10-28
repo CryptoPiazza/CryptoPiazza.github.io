@@ -6,7 +6,7 @@ description:
 # nav: false # comment in case you don't want this page
 # nav_order: 6 # comment in case you don't want this page
 
-lecturers: ["Luca Campa, MSc.", "Ass.-Prof. Dr. Arnab Roy"]
+lecturers: ["Luca Campa, MSc.", "Asst.-Prof. Dr. Arnab Roy"]
 term: Winter
 hours: 3
 ects: 5
