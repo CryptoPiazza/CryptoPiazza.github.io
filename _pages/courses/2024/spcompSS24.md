@@ -20,7 +20,7 @@ topics: [
     "Commitment schemes and zero-knowledge in the malicious setting",
     "Secure symmetric cryptography for multi-party computation and zero-knowledge proof systems (e.g. low multiplicative complexity requirement, arithmetic-oriented construction of block ciphers and hash functions)."
     ]
-recommendedreading: "C. Paar, J. Pelzl: Understanding Cryptography"
+recommendedreading: "Lecture notes, relevant papers (oploaded on OLAT)"
 assessment: "Project (40%), assignments and presentations (60%)"
 language: English
 ---
